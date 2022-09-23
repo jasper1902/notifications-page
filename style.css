@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    justify-content: center;
+    font-size:16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+    padding: 30px 30px;
+    margin: 30px 30px;
+    background-color: #fff;
+    max-width: 960px;
+    border-radius: 15px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.head h3 span {
+    background-color: hsl(219, 60%, 47%);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 5px;
+}
+
+.mark-all-as-read:hover {
+    color: hsl(219, 60%, 47%);
+    cursor: pointer;
+}
+
+.active {
+    background-color: hsl(211, 68%, 94%)
+}
+
+.noti {
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+    border-radius: 5px;
+    align-items: flex-start;
+}
+
+.avatar {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.event {
+    padding-left: 5px;
+    font-family: 'Fraunces', serif;
+}
+
+.dot{
+    margin-left: 10px;
+    height: 10px;
+    width: 10px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.private-message {
+    margin-top: 15px;
+    max-width: 860px;
+    padding: 20px;
+    border: rgb(181, 177, 177) solid 1px;
+    color: rgb(130, 130, 130);
+    float: right;
+    border-radius: 5px;
+}
+
+.private-message:hover {
+    background-color: hsl(211, 68%, 94%);
+    border: none;
+    cursor: pointer;
+}
+
+.pl-5 {
+    padding-left: 15px;
+}
+
+
+.width-100 {
+    width: 100%;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.commented-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commented-img img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.text-link:hover {
+    color: hsl(219, 60%, 47%);
+    cursor: pointer;
+}
+

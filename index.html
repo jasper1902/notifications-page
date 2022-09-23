@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="head">
+      <h3>Notifications <span id="notification-count">3</span></h3>
+      <div class="mark-all-as-read">Mark all as read</div>
+    </div>
+
+    <div class="noti active">
+      <img class="avatar" src="./assets/images/avatar-mark-webber.webp" alt="Mark Webber">
+      <div>
+        <div class="content">
+          <div class="name text-link pl-5">Mark Webber</div>
+          <div class="text">reacted to your recent post</div>
+          <div class="event text-link">My first tournament today!</div>
+          <span class="dot"></span>
+        </div>
+        <small class="pl-5">1m ago</small>
+      </div>
+    </div>
+
+    <div class="noti active">
+      <img class="avatar" src="./assets/images/avatar-angela-gray.webp" alt="Mark Webber">
+      <div>
+        <div class="content">
+          <div class="name text-link pl-5">Angela Gray</div>
+          <div class="text">followed you</div>
+          <span class="dot"></span>
+        </div>
+        <small class="pl-5">5m ago</small>
+      </div>
+    </div>
+
+    <div class="noti active">
+      <img class="avatar" src="./assets/images/avatar-jacob-thompson.webp" alt="Mark Webber">
+      <div>
+        <div class="content">
+          <div class="name text-link pl-5">Jacob Thompson</div>
+          <div class="text">has joined your group</div>
+          <div class="event text-link">Chess Club</div>
+          <span class="dot"></span>
+        </div>
+        <small class="pl-5">1 day ago</small>
+      </div>
+    </div>
+
+    <div class="noti">
+      <img class="avatar" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Mark Webber">
+      <div>
+        <div class="content">
+          <div class="name text-link pl-5">Rizky Hasanuddin</div>
+          <div class="text">sent you a private message</div>
+        </div>
+        <div>
+          <small class="pl-5">5 days ago</small>
+          <div class="private-message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks
+            now and
+            I'm already having lots of fun and improving my game.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="noti">
+      <img class="avatar" src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith">
+      <div class="width-100">
+        <div class="commented-img">
+          <div class="flex-content">
+            <div class="name text-link pl-5">Kimberly Smith</div>
+            <div class="text">commented on your picture</div>
+          </div>
+          <img src="/assets/images/image-chess.webp" alt="chess">
+        </div>
+        <small class="pl-5">1 week ago</small>
+      </div>
+    </div>
+
+    <div class="noti ">
+      <img class="avatar" src="./assets/images/avatar-nathan-peterson.webp" alt="Mark Webber">
+      <div>
+        <div class="content">
+          <div class="name text-link pl-5">Nathan Peterson</div>
+          <div class="text">reacted to your recent post</div>
+          <div class="event">5 end-game strategies to increase your win rate</div>
+        </div>
+        <small class="pl-5">2 weeks ago</small>
+      </div>
+    </div>
+
+    <div class="noti ">
+      <img class="avatar" src="./assets/images/avatar-anna-kim.webp" alt="Mark Webber">
+      <div>
+        <div class="content">
+          <div class="name text-link pl-5">Anna Kim</div>
+          <div class="text">left the group</div>
+          <div class="event text-link">Chess Club</div>
+        </div>
+        <small class="pl-5">2 weeks ago</small>
+      </div>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+
+</html>

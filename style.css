@@ -129,3 +129,56 @@ body {
     cursor: pointer;
 }
 
+@media only screen and (max-width:375px) {
+    body {
+        font-size: 6px;
+    }
+
+    .avatar {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    .noti {
+        margin-top: 8px;
+        padding: 7px;
+    }
+
+    .name {
+        font-size: 8px;
+    }
+    .container {
+        padding: 10px 10px;
+        margin: 10px 10px;
+        max-width: 370px;
+        border-radius: 15px;
+    }
+
+    .private-message {
+        margin-top: 5px;
+        padding: 5px;
+    }
+
+    .dot{
+        margin-left: 4px;
+        height: 5px;
+        width: 5px;
+        background-color: hsl(1, 90%, 64%);
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .pl-5 {
+        padding-left: 3px;
+    }
+
+    .commented-img img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .event {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+}
+
